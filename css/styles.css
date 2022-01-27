@@ -155,10 +155,26 @@ color: #2196F3;
     background: #2F303A;
     padding: 200px 0;
     text-align: center;
-    background-image: url(/images/backgound.jpg);
-    
-    
+    background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/backgound.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
+
+.header-link-icon{
+    width: 12px;
+    height: 16px;
+}
+
+.header-link-icon:hover{
+    width: 12px;
+    height: 16px;
+}
+
 .hero-title {
 font-weight: 900;
 display: grid;
