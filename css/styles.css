@@ -10,6 +10,7 @@ body{
     font-family: 'Roboto', sans-serif;
     color: #757575 ;
     margin: 0;
+    fill: #757575
     
 }
 
@@ -128,14 +129,32 @@ margin-right: 50px;
 }
 
 .header-li{
+    
 }   
 
 .header-link-item{
 margin-right: 10px;
+display: flex;
+
 }
 
 .header-link-item:hover{
-    color: var(--main-color-blue-)
+    color: var(--main-color-blue-);
+    fill: var(--main-color-blue-);
+}
+
+.header-icon{
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;   
+
+}
+
+.header-icon:hover{
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: #2196F3;
 }
 
 .heder-link-item:not( :last-child){
@@ -207,6 +226,23 @@ margin-bottom: 30px;
 .description-list {
     display: flex;
 
+}
+
+
+.icon-box{
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    padding: 25px 100px;
+}
+
+.description-icon{
+}
+
+.description-box{
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
 }
 
 .description-item:not( :last-child){
@@ -310,6 +346,50 @@ margin-right: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+.list-icon-team{
+    display: flex;
+    padding-top: 28px;
+    justify-content: center;
+}
+
+.team-icon{
+width: 20px;
+height: 20px;
+margin-right: 32px;
+fill:#afb1b8;
+justify-content: center;
+display: flex;
+
+}
+
+.team-link{
+    width: 44px;   
+    height: 44px;
+    background-color: teal;
+    border-radius: 50%;
+    display: block;
+}
+
+.team-list-icon{
+}
+
+.team-list-icon+.team-list-icon{
+    margin-left: 10px;
+}
+
+.team-icon:hover{
+    fill: var(--main-color-blue-);
+}
+
+
+
+.icon-box-team{
+width: 206px;
+height: 44px;
+margin-left: 32px;
+}
+
 .footer {
 padding-bottom: 60px;
 padding-top: 60px;
@@ -459,3 +539,6 @@ letter-spacing: 0.03em;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
+
+
