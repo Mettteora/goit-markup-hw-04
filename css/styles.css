@@ -128,8 +128,7 @@ margin-right: 50px;
 margin-right: 50px;
 }
 
-.header-li{
-    
+.header-li{   
 }   
 
 .header-link-item{
@@ -404,6 +403,37 @@ height: 44px;
 margin-left: 32px;
 }
 
+.title-clients {
+}
+.clients-list {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #AFB1B8
+}
+.clients-item {
+    width: 170px;
+    height: 92px;
+    
+    
+   
+}
+
+.clients-item + .clients-item{
+margin-right: 30px;
+
+}
+
+
+.clients-link {
+    
+    
+}
+.clients-icon { 
+    width: 106px;
+    
+    
+}
+
 .footer {
 padding-bottom: 60px;
 padding-top: 60px;
@@ -509,8 +539,24 @@ letter-spacing: 0.03em;
     
 }
 
+.clinets-box{
+    width: 1170px;
+    height: 184px;
+}
+
+.title-clients{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
 .footer-logo{
-  font-family: Raleway;
+    font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
