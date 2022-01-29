@@ -356,25 +356,39 @@ margin-right: 30px;
 .team-icon{
 width: 20px;
 height: 20px;
-margin-right: 32px;
 fill:#afb1b8;
 justify-content: center;
 display: flex;
+}
+
+.team-icon{
 
 }
 
 .team-link{
     width: 44px;   
     height: 44px;
-    background-color: teal;
     border-radius: 50%;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.team-list-icon{
+.team-link:hover{
+    width: 44px;   
+    height: 44px;
+    background-color:var(--main-color-blue-);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.team-list-icon+.team-list-icon{
+.team-link:hover .team-icon{
+fill: var(--main-color-)
+}
+
+.team-list-icon + .team-list-icon{
     margin-left: 10px;
 }
 
