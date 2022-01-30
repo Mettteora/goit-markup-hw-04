@@ -417,6 +417,14 @@ margin-left: 32px;
      border-radius: 5%;
 }
 
+.clients-item:hover{
+    border: 1px solid #2196F3;
+}
+
+.clients-item:hover .clients-icon{
+fill: #2196F3;
+}
+
 
 
 .clients-item:not( :last-child) {
@@ -425,13 +433,11 @@ margin-right: 30px;
 
 
 .clients-link {
-    
-    
 }
 .clients-icon { 
-    width: 106px;
-    
-    
+    fill: #afb1b8;
+    margin-top: 16px;
+    margin-left: 32px;
 }
 
 .footer {
