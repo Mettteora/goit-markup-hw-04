@@ -104,10 +104,13 @@ margin-right: 50px;
 
 .header-link:hover{
     color:var(--main-color-blue-);
+    fill: var(--main-color-blue-);
 }
 
 .header-link:focus{
     color: var(--main-color-blue-);
+    fill: var(--main-color-blue-);
+
 }
 
 .header-list-link{
@@ -151,7 +154,8 @@ display: flex;
     width: 10px;
     height: 16px; 
      justify-content: center;
-    align-items: center
+    align-items: center;
+    margin-right: 10px;
 }
 
 .header-icon:hover{
