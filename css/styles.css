@@ -459,7 +459,7 @@ display: flex;
 .clients-link:hover .clients-icon, 
 .clients-link:focus .clients-icon{
 border-color: #2196F3;
-fill: #2196F3;
+fill: #2196F3;  
 }
 
 .clients-link:hover{
