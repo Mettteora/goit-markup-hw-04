@@ -406,7 +406,8 @@ display: flex;
 }
 
 .team-link:hover .team-icon{
-    fill: var(--main-color-)
+    fill: var(--main-color-);
+    border-color: var(--main-color-blue-);
 }
 
 .team-link:focus{
@@ -418,6 +419,7 @@ display: flex;
     align-items: center;
     justify-content: center;
     fill: var(--main-color-);
+    border-color: var(--main-color-blue-);
 }
 
 
@@ -426,8 +428,10 @@ display: flex;
     margin-left: 10px;
 }
 
-.team-list-icon:hover{
-    
+
+.team-link:focus .team-icon{
+    fill: var(--main-color-);
+    border-color: var(--main-color-blue-);
 }
 
 
@@ -454,10 +458,19 @@ display: flex;
 
 .clients-link:hover .clients-icon, 
 .clients-link:focus .clients-icon{
-
+border-color: #2196F3;
 fill: #2196F3;
 }
 
+.clients-link:hover{
+    border-color: var(--main-color-blue-);
+    
+}
+
+.clients-link:focus {
+    border-color: var(--main-color-blue-);
+    
+}
 
 
 .clients-item:not( :last-child) {
@@ -468,6 +481,7 @@ margin-right: 30px;
 .clients-link {
      border: 1px solid #AFB1B8;
      border-radius: 5%;
+     
      width: 100%;
      height: 100%;
      display: flex;
@@ -476,6 +490,7 @@ margin-right: 30px;
 }
 .clients-icon { 
     fill: #afb1b8;
+    
 }
 
 .footer {
@@ -492,7 +507,7 @@ background-color:#2F303A;
     margin-bottom: 50px;
 }
 .option-item {
-    background: var(--main-color-);
+    background: #F5F4FA;
     border-radius: 4px;
    
 }
@@ -510,8 +525,9 @@ background-color:#2F303A;
     background: var(--main-color-blue-);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-    color: var(--main-color-);
+    color: #F5F4FA;
     cursor: pointer;
+    border-color: #2196F3;
 }
 
 
@@ -623,10 +639,6 @@ letter-spacing: 0.03em;
     color: var(--main-color-);
 }
 
-.footer-item:not(:last-child){
-    margin-bottom: 9px;
-}
-
 .undefined{
   position: absolute;
   width: 1px;
@@ -663,8 +675,12 @@ letter-spacing: 0.03em;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
+.gallary-link:focus{
+     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .foter-box {
-   
     margin-left: 70px;
 }
 .footer-item:not( :last-child){
